@@ -1,0 +1,128 @@
+* {
+	margin: 10px;
+	padding: 0;
+	box-sizing:initial;
+}
+
+body {
+	background: #F6F6FE;
+	font-family: 'Courgette', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor-birra {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.lista-birrita {
+	background-color:#C7A24A;
+	border-radius: 15px;
+	padding: 10px;
+	display: flex;
+	align-items:flex-start;
+	position:relative;
+	margin-bottom: 50px; 
+
+	.tarjeta__img-birrita {
+		width: 250px;
+		height: 280px;
+		margin-right: 30px;
+		border: solid white
+		
+	}
+	
+	.tarjeta__titulo-birrita {
+		font-family: 'Oswald', sans-serif;
+        
+		font-size:4.2rem;
+		margin-bottom: 20px;
+		color: white;
+	
+	}
+
+	.tarjeta__parrafo-birrita {
+		line-height: 10px;
+		font-size:3rem;
+		color: white;
+		
+	}
+    }
+	.lista-rojanegra {
+		background-color:#432918;
+		border-radius: 15px;
+		padding: 10px;
+		display: flex;
+		align-items:flex-start;
+		position:relative;
+		margin-bottom: 50px; 
+	
+		.tarjeta__img-rojanegra {
+			width: 250px;
+			height: 280px;
+			margin-right: 30px;
+			border: solid white
+			
+		}
+		
+		.tarjeta__titulo-rojanegra {
+			font-family: 'Oswald', sans-serif;
+			
+			font-size:4.2rem;
+			margin-bottom: 20px;
+			color: white;
+			
+		}
+	
+		
+		.tarjeta__parrafo-rojanegra {
+			line-height: 10px;
+			font-size:3rem;
+			color: white;
+			
+		}
+		}
+
+		
+		.lista-ipas{
+			background-color:#1D4322;;
+			border-radius: 15px;
+			padding: 10px;
+			display: flex;
+			align-items:flex-start;
+			position:relative;
+			margin-bottom: 50px; 
+		
+			.tarjeta__img-ipas {
+				width: 250px;
+				height: 280px;
+				margin-right: 30px;
+				border: solid white
+				
+			}
+			
+			.tarjeta__titulo-ipas {
+				font-family: 'Oswald', sans-serif;
+				
+				font-size:4.2rem;
+				margin-bottom: 20px;
+				color: white;
+				
+			}
+		
+			.tarjeta__parrafo-ipas {
+				line-height: 10px;
+				font-size:3rem;
+				color: white;
+				
+			}
+			}
